@@ -4,11 +4,6 @@ from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """ Tuple of strings, int and or floats
-    Args: 
-        k: a string
-        v: int and or float
-    Returns:
-        Turple: k is a string and v a square of the int/float 
-    """
+    """ Converts a key and its value to a tuple of the key and
+    the square of its value."""
     return (k, float(v**2))
