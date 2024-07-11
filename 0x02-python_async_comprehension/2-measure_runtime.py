@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Asynchronous measure_runtime coroutine that will execute async_comprehension four times in parallel using asyncio.gather
+"""Asynchronous python
 """
 from time import time
 import asyncio
